@@ -1,0 +1,130 @@
+#portfolio {
+  width: 100vw;
+  /* height: 600px; */
+  background: #270d41;
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.portfolio-container {
+  width: 100%;
+  /* height: 475px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.portfolio_text {
+  height: 400px;
+  width: 426px;
+  margin-top: 5.6rem;
+}
+
+.section-heading {
+  color: #dddddd;
+  font-size: 40px;
+  line-height: 57px;
+  margin: 0;
+}
+
+.section-subheading {
+  color: #dddddd;
+  font-size: 20px;
+  line-height: 36.4px;
+}
+
+.btn4 {
+  color: #f7b948;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1rem 3.4rem;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #f7b948;
+  cursor: pointer;
+  margin-top: 4.8rem;
+}
+
+/*--    SWIPER   --*/
+
+.slide-container {
+  width: 1150px;
+  /* height: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myPortfolio {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+.myPortfolio .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 340px;
+  height: 455x;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 455px;
+}
+
+/*--    SWIPER CONTROLS   --*/
+
+.swiper-control {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+
+.swiper-pagination .portfolio-pagination {
+  margin-bottom: 20px;
+}
+
+.swiper-button-next {
+  right: 27%;
+  color: #fff;
+}
+
+.swiper-button-prev {
+  left: 27%;
+  color: #fff;
+}
+
+.slider-arrow {
+  background: rgba(255, 255, 255, 0.27);
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  right: 27%;
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-control .slider-arrow::after {
+  content: "";
+}
+
+.swiper-control .slider-arrow i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.portfolio-pagination .swiper-pagination-bullet-active {
+  background: rgba(250, 248, 248, 1);
+}
